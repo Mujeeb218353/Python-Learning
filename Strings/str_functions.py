@@ -30,3 +30,4 @@ print("Zero fill name to width 30:", name.zfill(30)) # will zero fill the name
 print("Expand tabs in name (if any):", name.expandtabs()) # will expand tabs to spaces
 print("Partition name by 'Ur':", name.partition('Ur')) # will partition the name into a tuple
 print("Rpartition name by 'Ur':", name.rpartition('Ur')) # will partition the name into a tuple from the right
+print("Count of spaces in name (case insensitive):", name.casefold()) # will casefold the name for case insensitive comparison
