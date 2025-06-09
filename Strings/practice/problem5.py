@@ -1,3 +1,3 @@
-letter = "Dear Mujeeb, this python course is nice. Thanks!"
+letter = "Dear Mujeeb, \nthis python course is nice. Thanks!"
 
-print(letter.replace(", ", "\n").replace(". ", ".\n").replace(". ", "\n"))
+print(letter.replace(". ", ".\n").replace(". ", "\n"))
