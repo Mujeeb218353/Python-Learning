@@ -1,15 +1,9 @@
 n = int(input("Enter a number: "))
-i=n-1
-isPrime = False
-while i > 1:
-    if n%i == 0:
-        isPrime = False
-        break
-    else:
-        isPrime = True
-    i -= 1
 
-if isPrime:
-    print(n, "is a prime number.")
+for i in range(2, n):
+    if n%i == 0:
+        print(f"{n} is not a prime number")
+        break
 else:
-    print(n, "is not a prime number.")
+    print(f"{n} is a prime number")
+
