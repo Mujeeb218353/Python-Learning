@@ -1,4 +1,4 @@
-list = ["Rohan", "Coca Cola", "Pepsi", "Shezan"]
+list = ["Rohan", "Coca Cola", "Pepsi", "Shezan", "an"]
 print(list)
 
 def remove_item(list, word):
