@@ -14,6 +14,15 @@ computer = random.randint(1,3)
 
 user = int(input("1 for snake\n2 for water\n3 for gun\nEnter your choice: "))
 
+dictionary = {
+    1: "Snake",
+    2: "Water",
+    3: "Gun"
+}
+
+print(f"You choose {dictionary[user]}")
+print(f"Computer choose {dictionary[computer]}")
+
 if user == computer:
     print("Tie")
 
@@ -34,3 +43,6 @@ elif user == 3 and computer == 1:
 
 elif user == 3 and computer == 2:
     print("You lose")
+
+else:
+    print("Invalid input")
