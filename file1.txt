@@ -1,0 +1,5 @@
+this file contains the word ######
+d for ######
+a ###### is a ######
+one ###### knows a ######
+How many times a word ###### comes in this file
